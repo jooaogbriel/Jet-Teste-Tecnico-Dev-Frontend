@@ -1,9 +1,11 @@
+"use client"
+
 import Hero from "@/app/ui/dashboard/hero";
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div >
+    <div>
         <Hero />
-      <div >{children}</div>
+      <div>{children}</div>
     </div>
   );
 }
